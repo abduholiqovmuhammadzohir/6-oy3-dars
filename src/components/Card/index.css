@@ -1,0 +1,49 @@
+.card h1 {
+    color: #13390D;
+    font-family: "IBM Plex Mono";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.card{
+    margin-top: 108px;
+}
+
+.card p {
+    color: rgba(19, 57, 13, 0.70);
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 380px;
+    margin-bottom: 60px;
+}
+
+.card button {
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #13390D;
+    color: #FFF;
+    text-align: center;
+    font-family: "IBM Plex Mono";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card button:hover{
+    background-color: #6DFC56;
+    border: 1px solid black;
+    color:red;
+}
